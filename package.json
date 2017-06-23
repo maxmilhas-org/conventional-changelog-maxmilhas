@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-vue-material",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate Vue Material's changelog from git metadata",
   "main": "index.js",
   "scripts": {
