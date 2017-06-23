@@ -1,9 +1,25 @@
+## Git Commit Message Convention
+
+> This is adapted from [Vue.js's commit convention](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md).
+
 #### Examples
 
-Appears under "Features" header, pencil subheader:
+Appears under "Components" header, pencil subheader:
 
 ```
-feat(pencil): add 'graphiteWidth' option
+component(pencil): add 'graphiteWidth' option
+```
+
+Appears under "UI Elements" header, pencil subheader:
+
+```
+ui(pencil): add 'graphiteWidth' option
+```
+
+Appears under "Core" header, pencil subheader:
+
+```
+core(pencil): add 'graphiteWidth' option
 ```
 
 Appears under "Bug Fixes" header, graphite subheader, with a link to issue #28:
@@ -11,7 +27,7 @@ Appears under "Bug Fixes" header, graphite subheader, with a link to issue #28:
 ```
 fix(graphite): stop graphite breaking when width < 0.1
 
-Closes #28
+close #28
 ```
 
 Appears under "Performance Improvements" header, and under "Breaking Changes" with the breaking change explanation:
@@ -30,7 +46,7 @@ revert: feat(pencil): add 'graphiteWidth' option
 This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
 
-### Commit Message Format
+### Full Message Format
 
 A commit message consists of a **header**, **body** and **footer**.  The header has a **type**, **scope** and **subject**:
 
@@ -56,8 +72,7 @@ Other prefixes are up to your discretion. Suggested prefixes are `docs`, `chore`
 
 ### Scope
 
-The scope could be anything specifying place of the commit change. For example `$location`,
-`$browser`, `$compile`, `$rootScope`, `ngHref`, `ngClick`, `ngView`, etc...
+The scope could be anything specifying place of the commit change. For example `MdButton`, `MdComponent`, `MdAnimation` etc...
 
 ### Subject
 
@@ -78,9 +93,3 @@ The footer should contain any information about **Breaking Changes** and is also
 reference GitHub issues that this commit **Closes**.
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
-
-A detailed explanation can be found in this [document][commit-message-format].
-
-Based on https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
-
-[commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#

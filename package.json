@@ -1,7 +1,7 @@
 {
-  "name": "conventional-changelog-angular",
+  "name": "conventional-changelog-vue-material",
   "version": "1.3.3",
-  "description": "conventional-changelog angular preset",
+  "description": "Generate Vue Material's changelog from git metadata",
   "main": "index.js",
   "scripts": {
     "lint": "jshint *.js --exclude node_modules && jscs *.js",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+    "url": "git+https://github.com/vuematerial/conventional-changelog-vue-material.git"
   },
   "keywords": [
     "conventional-changelog",
-    "angular",
+    "vue-material",
     "preset"
   ],
   "author": "Steve Mao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/conventional-changelog/conventional-changelog-angular/issues"
+    "url": "https://github.com/vuematerial/conventional-changelog-vue-material/issues"
   },
-  "homepage": "https://github.com/conventional-changelog/conventional-changelog-angular#readme",
+  "homepage": "https://github.com/vuematerial/conventional-changelog-vue-material#README",
   "devDependencies": {
     "better-than-before": "^1.0.0",
     "chai": "^3.4.1",

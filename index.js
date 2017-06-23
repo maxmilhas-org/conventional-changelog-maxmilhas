@@ -49,6 +49,12 @@ var writerOpts = {
 
     if (commit.type === 'feat') {
       commit.type = 'Features';
+    } else if (commit.type === 'comp') {
+      commit.type = 'Components';
+    } else if (commit.type === 'core') {
+      commit.type = 'Core';
+    } else if (commit.type === 'ui') {
+      commit.type = 'UI Elements';
     } else if (commit.type === 'fix') {
       commit.type = 'Bug Fixes';
     } else if (commit.type === 'perf') {

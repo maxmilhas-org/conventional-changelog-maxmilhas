@@ -1,18 +1,13 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
+#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [angular](https://github.com/angular/angular) preset
+> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [vue-material](https://github.com/vuematerial/vue-material) preset
 
 
 See [convention](convention.md)
 
-**Issues with the convention itself should be reported on the angular issue tracker.**
+**Issues with the convention itself should be reported on the vue-material issue tracker.**
 
-
-[npm-image]: https://badge.fury.io/js/conventional-changelog-angular.svg
-[npm-url]: https://npmjs.org/package/conventional-changelog-angular
-[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog-angular.svg?branch=master
-[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog-angular
-[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog-angular.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog-angular
-[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog-angular/badge.svg
-[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog-angular
+[npm-image]: https://badge.fury.io/js/conventional-changelog-vue-material.svg
+[npm-url]: https://npmjs.org/package/conventional-changelog-vue-material
+[travis-image]: https://travis-ci.org/vuematerial/conventional-changelog-vue-material.svg?branch=master
+[travis-url]: https://travis-ci.org/vuematerial/conventional-changelog-vue-material
