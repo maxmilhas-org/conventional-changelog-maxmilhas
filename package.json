@@ -1,7 +1,8 @@
 {
-  "name": "conventional-changelog-vue-material",
+  "name": "conventional-changelog-maxmilhas",
   "version": "0.0.1",
-  "description": "Generate Vue Material's changelog from git metadata",
+  "private": true,
+  "description": "Generate changelog from git metadata of the MaxMilhas app",
   "main": "index.js",
   "scripts": {
     "lint": "jshint *.js --exclude node_modules && jscs *.js",
@@ -10,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuematerial/conventional-changelog-vue-material.git"
+    "url": "git+https://github.com/vuematerial/conventional-changelog-maxmilhas.git"
   },
   "keywords": [
     "conventional-changelog",
-    "vue-material",
+    "maxmilhas",
     "preset"
   ],
-  "author": "Steve Mao",
-  "license": "ISC",
+  "author": "Marcos Moura",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuematerial/conventional-changelog-vue-material/issues"
+    "url": "https://github.com/vuematerial/conventional-changelog-maxmilhas/issues"
   },
-  "homepage": "https://github.com/vuematerial/conventional-changelog-vue-material#README",
+  "homepage": "https://github.com/vuematerial/conventional-changelog-maxmilhas#README",
   "devDependencies": {
     "better-than-before": "^1.0.0",
     "chai": "^3.4.1",

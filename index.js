@@ -41,39 +41,28 @@ var writerOpts = {
   transform: function(commit) {
     var discard = true;
     var issues = [];
+    var typeTable = {
+      feat: 'Features',
+      fix: 'Bug Fixes',
+      perf: 'Performance Improvements',
+      revert: 'Reverts',
+      docs: 'Documentation',
+      style: 'Styles',
+      refactor: 'Code Refactoring',
+      test: 'Tests',
+      chore: 'Chores',
+    }
 
     commit.notes.forEach(function(note) {
       note.title = 'BREAKING CHANGES';
       discard = false;
     });
 
-    if (commit.type === 'feat') {
-      commit.type = 'Features';
-    } else if (commit.type === 'comp') {
-      commit.type = 'Components';
-    } else if (commit.type === 'core') {
-      commit.type = 'Core';
-    } else if (commit.type === 'ui') {
-      commit.type = 'UI Elements';
-    } else if (commit.type === 'fix') {
-      commit.type = 'Bug Fixes';
-    } else if (commit.type === 'perf') {
-      commit.type = 'Performance Improvements';
-    } else if (commit.type === 'revert') {
-      commit.type = 'Reverts';
-    } else if (discard) {
+    if (commit.type === 'discard') {
       return;
-    } else if (commit.type === 'docs') {
-      commit.type = 'Documentation';
-    } else if (commit.type === 'style') {
-      commit.type = 'Styles';
-    } else if (commit.type === 'refactor') {
-      commit.type = 'Code Refactoring';
-    } else if (commit.type === 'test') {
-      commit.type = 'Tests';
-    } else if (commit.type === 'chore') {
-      commit.type = 'Chores';
     }
+
+    commit.type = typeTable[commit.type]
 
     if (commit.scope === '*') {
       commit.scope = '';

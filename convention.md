@@ -4,22 +4,10 @@
 
 #### Examples
 
-Appears under "Components" header, pencil subheader:
+Appears under "Features" header, pencil subheader:
 
 ```
-component(pencil): add 'graphiteWidth' option
-```
-
-Appears under "UI Elements" header, pencil subheader:
-
-```
-ui(pencil): add 'graphiteWidth' option
-```
-
-Appears under "Core" header, pencil subheader:
-
-```
-core(pencil): add 'graphiteWidth' option
+feat(pencil): add 'graphiteWidth' option
 ```
 
 Appears under "Bug Fixes" header, graphite subheader, with a link to issue #28:
@@ -72,7 +60,7 @@ Other prefixes are up to your discretion. Suggested prefixes are `docs`, `chore`
 
 ### Scope
 
-The scope could be anything specifying place of the commit change. For example `MdButton`, `MdComponent`, `MdAnimation` etc...
+The scope could be anything specifying place of the commit change. For example `Search`, `Help`, `Modal` etc...
 
 ### Subject
 
