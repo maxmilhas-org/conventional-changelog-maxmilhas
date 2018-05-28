@@ -1,6 +1,6 @@
 #  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [vue-material](https://github.com/vuematerial/vue-material) preset
+> [conventional-changelog](https://github.com/maxmilhas-org/conventional-changelog-maxmilhas) [maxmilhas](https://github.com/maxmilhas-org/) preset
 
 
 See [convention](convention.md)
